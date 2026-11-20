@@ -28,7 +28,3 @@ $snapshot
 ```
 
 Restore prompts before writing and creates a fresh backup of the destination. Restore accepts snapshots created for the same profile name. The baseline values are a reference for manual comparison.
-
-## Publication
-
-The original local Git commit contains personal filenames, server details and binary gameplay state. Before pushing, verify that every commit reachable from the branch or tag you plan to publish contains only reviewed files. If the original commit was never pushed, amending it can remove the raw files from the branch history. The previous commit can remain in the local reflog. Review the commit author and committer identities before publishing.
