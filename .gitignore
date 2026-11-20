@@ -1,0 +1,15 @@
+# Raw local DayZ data and private backup snapshots
+/DayZ/
+/backups/
+**/DayZ-backup-*/
+*.DayZProfile
+*.core.xml
+*.dayz_preset_*.xml
+*.chernarusplus
+*.enoch
+*.log
+*.rpt
+*.mdmp
+*.dmp
+.env
+.env.*
